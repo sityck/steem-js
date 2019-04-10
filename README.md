@@ -1,6 +1,21 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/steemit/steem-js/blob/master/LICENSE)
 [![Steem.js channel on steemit.chat](https://img.shields.io/badge/chat-steemit.chat-1c56a4.svg)](https://steemit.chat/channel/steemjs)
 
+## 打包流程：  
+### 1、clone该项目  
+### 2、安装node8.7 npm5.4.2 环境  
+### 3、npm安装依赖：  
+```html
+npm install webpack@1.13.2 webpack-visualizer-plugin@0.1.5 should@11.1.0 mocha@3.0.2 mocha-make-stub@2.3.2 babel-cli@6.16.0 babel-eslint@7.1.1 babel-loader@6.2.5 babel-polyfill@6.23.0 babel-preset-es2015@6.16.0 babel-preset-es2017@6.16.0 babel-register@6.14.0 bluebird@3.4.6 eslint@3.5.0 eslint-plugin-import@1.15.0 eslint-plugin-jsx-a11y@2.2.2 eslint-plugin-react@6.2.1 json-loader@0.5.4  
+```
+并全局安装(npm install * -g)  
+```html
+npm install @steemit/rpc-auth@1.1.1 bigi@1.4.2 bluebird@3.4.6 browserify-aes@1.0.6 bs58@4.0.0 buffer@5.0.6 bytebuffer@5.0.1 create-hash@1.1.2 create-hmac@1.1.4 cross-env@5.0.0 cross-fetch@1.1.1 debug@2.6.8 detect-node@2.0.3 ecurve@1.0.5 lodash@4.16.4 retry@0.12.0 secure-random@1.1.1 ws@3.3.2  
+```
+并全局安装(npm install * -g)  
+### 4、打包：
+webpack
+
 # Steem.js
 Steem.js the JavaScript API for Steem blockchain
 
