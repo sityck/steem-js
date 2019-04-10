@@ -14,7 +14,8 @@ npm install @steemit/rpc-auth@1.1.1 bigi@1.4.2 bluebird@3.4.6 browserify-aes@1.0
 ```
 并全局安装(npm install * -g)  
 ### 4、打包：
-webpack
+webpack   
+打包压缩后的js库文件在disk文件夹中  
 
 # Steem.js
 Steem.js the JavaScript API for Steem blockchain
