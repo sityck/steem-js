@@ -30,7 +30,7 @@ export function jsonRpc(uri, {method, id, params, fetchMethod=fetch}) {
   return fetchMethod(uri, {
     body: JSON.stringify(payload),
     method: 'post',
-    mode: 'cors',
+    mode: 'no-cors',
     headers: {
       Accept: 'application/json, text/plain, */*',
       'Content-Type': 'application/json',
