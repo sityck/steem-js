@@ -1,6 +1,8 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/steemit/steem-js/blob/master/LICENSE)
 [![Steem.js channel on steemit.chat](https://img.shields.io/badge/chat-steemit.chat-1c56a4.svg)](https://steemit.chat/channel/steemjs)
 
+P5K8d1jmRUrraGqxQSHJxVaZ2RbkpeSUzrqFkmY7WkfTT1gSZgxr
+
 ## 打包流程：  
 ### 1、clone该项目  
 ### 2、安装node8.7 npm5.4.2 环境  
